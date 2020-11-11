@@ -3,10 +3,13 @@
     width: 200px;
     background-color: purple;
     transition: transform 1s ease-out;
-    margin: 1em;
+    margin-left: 15em;
 }
-.moved{
+.movedRight{
     transform: translateX(200px);
+}
+.movedLeft{
+    transform: translateX(-200px);
 }
 .deleted{
     display: none;
