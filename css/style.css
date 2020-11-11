@@ -1,0 +1,17 @@
+.deleteMe{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    transition: transform 1s ease-out;
+    margin: 1em;
+}
+.moved{
+    transform: translateX(200px);
+}
+.deleted{
+    display: none;
+}
+p{
+    text-align: center;
+    color: white;
+}
